@@ -1,7 +1,7 @@
 # Rustel for Neovim
 
-Play Strudel/Rustel scores in Neovim, with syntax colors, active notes, and inline visuals.
-Requires Neovim 0.9 or later and a current `rustel` binary on your PATH.
+Play [Strudel](https://strudel.cc)/[Rustel](https://rustel.cc) scores in Neovim, with syntax colors, active notes, and inline visuals.
+Requires Neovim 0.9 or later and a current [rustel](https://github.com/tzfm/rustel) binary on your PATH.
 No other Neovim plugins are needed.
 
 ![A score in Neovim. Syntax colors the text. Sounding notes are lit. Scope, piano roll, spectrum, and spiral draw in the buffer.](assets/neovim.gif)
