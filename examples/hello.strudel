@@ -1,0 +1,8 @@
+setcpm(90 / 4)
+
+$: note("c3 eb3 g3 bb3").s("triangle").gain(0.2)
+  ._pianoroll({ labels: true })
+  ._scope()
+
+// Try ._punchcard(), ._wordfall(), ._spiral(), ._pitchwheel(),
+// ._tscope(), or ._spectrum() in place of ._pianoroll().
