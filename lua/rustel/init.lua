@@ -136,7 +136,7 @@ local function launch(buf, path)
   local stderr = protocol.stream(function(message) receive(session, message) end, function(line)
     session.stderr = line
   end)
-  local command = { config.command, path, "--watch", "--ui-events" }
+  local command = { config.command, "play", path, "--watch", "--ui-events" }
   vim.list_extend(command, config.args)
   local ok, job = pcall(vim.fn.jobstart, command, {
     cwd = vim.fn.fnamemodify(path, ":h"),
